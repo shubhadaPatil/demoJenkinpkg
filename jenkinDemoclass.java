@@ -1,5 +1,8 @@
 package demoJenkinpkg;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.*;
+
 import org.testng.annotations.Test;
 
 public class jenkinDemoclass {
@@ -8,7 +11,9 @@ public class jenkinDemoclass {
 	public void testJenkins()
 	{
 		System.out.println("Welcome Nitin in the world of Jenkins");
-		System.out.println("test pull-Shubhada Patil-Shirsat");
-		System.out.println("test pull");
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://adam.goucher.ca/parkcalc/");
+		driver.close();
+		
 	}
 }
