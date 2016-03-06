@@ -16,7 +16,7 @@ public class triangle {
 		
 	/*Divide triangle and calculate sum of parent and adjacent child nodes and store it 
          in array pyramid_btmArr and in pyramid_pyramid_topArr*/
-         //Line added for Github demo
+        
 
 		int pyramid_btmArr[]= new int[6];
 		int pyramid_topArr[]= new int[3];
