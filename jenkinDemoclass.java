@@ -26,6 +26,9 @@ public class jenkinDemoclass {
 		System.out.println("Welcome Nitin in the world of Jenkins");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("http://adam.goucher.ca/parkcalc/");
+		sysout
+		// nwe line added1 
+		//for git demo
 		driver.manage().window().maximize();
 		
 		
